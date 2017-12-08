@@ -1384,7 +1384,7 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    padding: 0 .4rem;
+    /*padding: 0 .4rem;*/
 }
 
 .list-item .bank-icon {
@@ -1958,7 +1958,7 @@
 .list-item {
     position: relative;
     margin-top: .32rem;
-    padding: .16rem .32rem .266667rem .56rem;
+    /*padding: .16rem .32rem .266667rem .56rem;*/
     border: .026667rem solid #e5e5e5;
     -webkit-border-radius: .106667rem;
     border-radius: .106667rem;
