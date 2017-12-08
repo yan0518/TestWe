@@ -1,0 +1,77 @@
+.mx-layout-body{
+    overflow: auto;
+    padding: .96rem 0 1.6rem;
+    width: 100%;
+    min-height: 100%;
+    color: #2a2a2a
+}
+
+.footer{
+    position: relative;
+    left: 0;
+    top: 0;
+    margin: -1.28rem auto 0;
+    width: 100%;
+    height: 1.28rem;
+    font-size: .453333rem;
+    color: #2a2a2a;
+    clear: both;
+    background-color: #fff;
+    z-index: 999
+}
+
+.footer-item{
+    float: left;
+    width: 50%;
+    height: 1.28rem;
+    line-height: 1.28rem;
+    text-align: center
+}
+
+.footer-item.active{
+    background: orange
+}
+
+.footer-item .tab-icon{
+    margin-right: .16rem;
+    vertical-align: middle
+}
+
+.footer-item .tab-iconfirst-child {
+    width: .373333rem;
+    height: .32rem
+}
+
+.footer-item .tab-iconlast-child {
+    width: .426667rem;
+    height: .4rem
+}
+
+.footer-item .tab-text{
+    vertical-align: middle
+}
+
+.loading-text{
+    margin-top: .266667rem;
+    text-align: center;
+    color: #959595
+}
+
+[data-dpr="1"]
+.loading-text{
+    font-size: 14px
+}
+
+[data-dpr="2"]
+.loading-text{
+    font-size: 28px
+}
+
+[data-dpr="3"]
+.loading-text{
+    font-size: 42px
+}
+
+.loading-text>i{
+    margin-right: .266667rem
+}
