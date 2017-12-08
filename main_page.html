@@ -144,6 +144,15 @@
             //跳转活动页
         })
 
+        $('body').on('click', '.masker', function(){
+            $('input[type=checkbox]').prev().removeClass('checked');
+            $('input[type=checkbox]').val('false');
+            $('.header-tab').removeClass('active');
+            $('.select-list').remove();
+            $('.list-wrap').removeClass('show-list');
+            $('.masker').attr('style', 'display: none');
+        })
+
         $(function(){
             $.getJSON("js/activity.json", function (data){
                 datalist = data.activityList;
