@@ -1,0 +1,48 @@
+{
+    "code": 0,
+    "activityId": 440,
+    "bannerURL": "https://pic.u51.com/sfs-gateway/api/v1/download/927cb526d3fa482d8ee2ab532516ce32acab",
+    "title": "家乐福5折",
+    "bankName": "多家银行",
+    "bankIconURL": "https://pic.51zhangdan.com/u51/storage/0b/09a58f9a-22b1-05f3-1df1-9385489f771b.png",
+    "cardBrandName": "银联",
+    "cardBrandIconURL": "https://pic.51zhangdan.com/u51/storage/3f/3bb647bf-ebbe-04d5-7e9c-5f43dffafa6f.png",
+    "beginTime": "2017-12-08",
+    "endTime": "2017-12-12",
+    "activityPeriod": "每日",
+    "remindTime": "09:55:00",
+    "userStatus": 1,
+    "activityDesc": "12月8日19点到12月12日24点，用银联手机闪付或银联二维码支付，全国10万商户门店享5折优惠。\n8号的活动从19点开始，9号～12号的活动分为10点场和19点场。\n详细的商户信息可以在银联官方微信号查阅，也可在云闪付app查阅剩余名额。",
+    "moreActivityList": [
+        {
+            "code": 0,
+            "activityId": 424,
+            "bannerURL": "https://pic.u51.com/sfs-gateway/api/v1/download/b5bc5c1bf6584a24abf86091b80a0992f43d",
+            "title": "呷哺呷哺满50元立减20元",
+            "bankName": "光大银行",
+            "bankIconURL": "https://pic.51zhangdan.com/u51/storage/62/6096d775-b0ab-c66b-3c04-457187777aa2.png",
+            "cardBrandName": "",
+            "cardBrandIconURL": "",
+            "beginTime": "2017-11-22",
+            "endTime": "2018-03-31",
+            "activityPeriod": "每周三、周六",
+            "remindTime": "10:00:00",
+            "activityDesc": "在微信端绑定光大信用卡，每周三、周六在全国指定呷哺呷哺门店消费, 通过微信支付，即享满50元立减20元优惠。\n每活动日名额3396个，每活动日每位持卡人限享一次。"
+        },
+        {
+            "code": 0,
+            "activityId": 428,
+            "bannerURL": "https://pic.u51.com/sfs-gateway/api/v1/download/44d150f6c6f6492493f0e5539565f6824887",
+            "title": "10元购100元本来生活权益",
+            "bankName": "光大银行",
+            "bankIconURL": "https://pic.51zhangdan.com/u51/storage/62/6096d775-b0ab-c66b-3c04-457187777aa2.png",
+            "cardBrandName": "",
+            "cardBrandIconURL": "",
+            "beginTime": "2017-12-01",
+            "endTime": "2018-03-31",
+            "activityPeriod": "长期",
+            "remindTime": "10:00:00",
+            "activityDesc": "指定联名卡客户当月单卡交易满6888元，次月即有机会获得10元购100元本来生活权益一次。\n每个月限2000个权益名额，共计8000个，每个客户每月只能购买一次。\n\n指定联名卡：考拉海购联名卡、51代购联名卡、京东白条联名卡、BDUCK小黄鸭主题卡、本来生活联名卡、大当家联名卡、今日头条联名卡、QQ联名卡、WPS联名卡、海口望海国际联名卡、南宁绿地联名卡、掌阅联名卡、兰州长征会师联名卡、南京名城扬州联名卡、JCB时尚信用卡、沈阳天生吃货联名卡、郑州正道商业联名卡、永明路走安康联名卡、武汉微梦联名卡、青岛富海联名卡、烟台振华联名卡、武汉孩子王联名卡、杭州联华联名卡、长沙友阿联名卡、长沙湘诚联名卡"
+        }
+    ]
+}

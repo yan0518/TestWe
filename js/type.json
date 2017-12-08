@@ -1,0 +1,149 @@
+{
+    "code": 0,
+    "bankList": [{
+        "label": "广发银行",
+        "key": "GuangFa",
+        "iconURL": "https://pic.51zhangdan.com/u51/storage/0b/0475a872-0dcf-0395-30ea-6c129f329c8b.png"
+    },
+    {
+        "label": "光大银行",
+        "key": "GuangDa",
+        "iconURL": "https://pic.51zhangdan.com/u51/storage/62/6096d775-b0ab-c66b-3c04-457187777aa2.png"
+    },
+    {
+        "label": "平安银行",
+        "key": "PingAn",
+        "iconURL": "https://pic.51zhangdan.com/u51/storage/3a/3f772c0d-7b27-6061-ee47-65a32828742a.png"
+    },
+    {
+        "label": "花旗银行",
+        "key": "HuaQi",
+        "iconURL": "https://pic.51zhangdan.com/u51/storage/a2/a1b1316a-ada1-e5bf-5462-a0c3b61e75c2.png"
+    },
+    {
+        "label": "中信银行",
+        "key": "ZhongXin",
+        "iconURL": "https://pic.51zhangdan.com/u51/storage/3a/39131e56-3064-7faa-1fab-845ba66f67ba.png"
+    },
+    {
+        "label": "广州银行",
+        "key": "GuangZhou",
+        "iconURL": "https://pic.51zhangdan.com/u51/storage/2a/2726d341-8a5d-d0c3-97ab-51af8cace5ba.png"
+    },
+    {
+        "label": "浙商银行",
+        "key": "ZheShang",
+        "iconURL": "https://pic.51zhangdan.com/u51/storage/e5/e3b385f1-70f3-e293-cca3-df3ab2a16355.png"
+    },
+    {
+        "label": "浦发银行",
+        "key": "PuFa",
+        "iconURL": "https://pic.51zhangdan.com/u51/storage/69/6adb8f77-0479-7966-b806-189f7bb45629.png"
+    },
+    {
+        "label": "农业银行",
+        "key": "NongYe",
+        "iconURL": "https://pic.51zhangdan.com/u51/storage/7e/727efdfb-aa3c-d8c0-6751-f55a8d3b2a7e.png"
+    },
+    {
+        "label": "招商银行",
+        "key": "ZhaoShang",
+        "iconURL": "https://pic.51zhangdan.com/u51/storage/1a/11b9ad1c-59e1-abf0-41be-af053ceca99a.png"
+    },
+    {
+        "label": "工商银行",
+        "key": "GongShang",
+        "iconURL": "https://pic.51zhangdan.com/u51/storage/37/31cafbb8-50d2-3a68-ccc1-58d71c8109c7.png"
+    },
+    {
+        "label": "建设银行",
+        "key": "JianShe",
+        "iconURL": "https://pic.51zhangdan.com/u51/storage/de/db7d4c76-d77a-cb0e-176c-8ab26c3d2a2e.png"
+    },
+    {
+        "label": "邮储银行",
+        "key": "YouChu",
+        "iconURL": "https://pic.51zhangdan.com/u51/storage/72/75c71fc4-3ccd-c8ed-b118-d81137919e62.png"
+    },
+    {
+        "label": "中国银行",
+        "key": "ZhongGuo",
+        "iconURL": "https://pic.51zhangdan.com/u51/storage/26/21716975-8636-4acc-ec06-f1bd6e56d506.png"
+    },
+    {
+        "label": "华夏银行",
+        "key": "HuaXia",
+        "iconURL": "https://pic.51zhangdan.com/u51/storage/ee/efb2c1e1-2448-daa9-6b24-c946aadacbde.png"
+    },
+    {
+        "label": "兴业银行",
+        "key": "XingYe",
+        "iconURL": "https://pic.51zhangdan.com/u51/storage/c3/c7a7a08d-5466-2712-a5a3-2ef69773e8f3.png"
+    },
+    {
+        "label": "交通银行",
+        "key": "JiaoTong",
+        "iconURL": "https://pic.51zhangdan.com/u51/storage/c0/cecfdc07-e954-5a7d-9288-9c00d985a230.png"
+    },
+    {
+        "label": "上海银行",
+        "key": "ShangHai",
+        "iconURL": "https://pic.51zhangdan.com/u51/storage/02/05a4522a-0f38-4751-a2d8-ff2b2e80d672.png"
+    },
+    {
+        "label": "北京银行",
+        "key": "BeiJing",
+        "iconURL": "https://pic.51zhangdan.com/u51/storage/51/51623cc3-b5d2-c35a-7d19-f5133411aa51.png"
+    },
+    {
+        "label": "重庆银行",
+        "key": "ChongQing",
+        "iconURL": "https://pic.51zhangdan.com/u51/storage/d5/d9e23b2b-9a43-47fa-5ef2-feb3000b9265.png"
+    },
+    {
+        "label": "包商银行",
+        "key": "BaoShang",
+        "iconURL": "https://pic.51zhangdan.com/u51/storage/11/1feeed50-08b9-c69b-d430-b9eb18598631.png"
+    },
+    {
+        "label": "渣打银行",
+        "key": "ZhaDa",
+        "iconURL": "https://pic.51zhangdan.com/u51/storage/c0/c04aef6d-9ade-6536-02fc-843dfeba44b0.png"
+    }],
+    "typeList": [{
+        "label": "热门",
+        "key": "Hot"
+    },
+    {
+        "label": "新户",
+        "key": "NewUser"
+    },
+    {
+        "label": "美食",
+        "key": "Food"
+    },
+    {
+        "label": "电影",
+        "key": "Film"
+    },
+    {
+        "label": "购物",
+        "key": "Shopping"
+    },
+    {
+        "label": "出行",
+        "key": "Trip"
+    },
+    {
+        "label": "境外",
+        "key": "Overseas"
+    },
+    {
+        "label": "车主",
+        "key": "CarOwner"
+    },
+    {
+        "label": "其他",
+        "key": "else"
+    }]
+}

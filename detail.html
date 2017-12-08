@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="cache-control" content="max-age=0">
+        <meta http-equiv="cache-control" content="no-cache">
+        <meta http-equiv="expires" content="0">
+        <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT">
+        <meta http-equiv="pragma" content="no-cache">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="format-detection" content="telephone=no">
+        <title>51信用卡管家</title>
+        <link href="css/app.css" rel="stylesheet" />
+        <link href="css/detail.css" rel="stylesheet" />
+        <script src="js/init.js"></script>
+        <script src="js/jquery-1.12.4.min.js"></script>
+    </head>
+    <body>
+        <div class="mx-app">
+            <div class="mx-webviews">
+                <div class="mx-webview active" webview-key="ti3d9d">
+                    <div class="mx-layout">
+                        <div class="mx-layout-body">
+                            <div class="container">
+                                <img alt="" class="banner ac_banner" src="">
+                                <div class="info">
+                                    <div>
+                                        <h3 class="title ac_title"></h3>
+                                        <div class="bank-info">
+                                            <img class="bank-icon ac_bank-icon" src="">
+                                            <span class="bank-name ac-bank-name"></span>
+                                            <button class="card-group">
+                                                <img src="" class="bank-icon ac-card-group">
+                                                <span class="bank-name ac-card-bank-name"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-icare"><span class="add-icon">+</span>关注</button>
+                                </div>
+                                <div class="remind">
+                                    <p>
+                                        <span class="remind-me">提醒我</span>
+                                        <span class="remind-rule">
+                                            <span class="vm"> | 提醒规则：</span>
+                                            <span class="vm ac-remind-period"></span>
+                                            <span class="vm ac-remind-time"></span>
+                                        </span>
+                                    </p>
+                                    <label class="miox-ui-switch">
+                                        <input type="checkbox" class="miox-ui-switch-input">
+                                        <span class="miox-ui-switch-core"></span>
+                                    </label>
+                                </div>
+                                <h3 class="part-title">活动时间</h3>
+                                <time class="time">
+                                    <span id="ac-time"></span>
+                                    <span>（长期）</span></time>
+                                <h3 class="part-title">活动描述</h3>
+                                <div class="activity-describe">
+                                    <pre class="ac-activity-describe"></pre>
+                                </div>
+                            </div>
+                            <h3 class="part-title mt24">更多活动</h3>
+                            <ul class="list more-list">
+                            </ul>
+                            <div class="loading" style="display: none;">
+                                <img src="images/loading.gif" alt="loading" class="loading-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript">
+        $(function(){
+            $.getJSON("js/detail.json", function (data){
+                $('.ac_banner').attr('src', data.bannerURL);
+                $('.ac_title').html(data.title);
+                $('.ac_bank-icon').attr('src', data.bankIconURL);
+                $('.ac-bank-name').html(data.bankName);
+                $('.ac-time').html(data.beginTime + '-' + data.endTime);
+                if(data.cardBrandIconURL == '' || data.cardBrandName == ''){
+                    $('.card-group').remove();
+                }
+                else{
+                    $('.ac-card-group').attr('src', data.cardBrandIconURL);
+                    $('.ac-card-bank-name').html(data.cardBrandName);
+                }
+                $('.ac-activity-describe').html(data.activityDesc);
+                $('.ac-remind-period').html(data.activityPeriod);
+                $('.ac-remind-time').html(data.remindTime);
+                $.each(data.moreActivityList, function(infoIndex, info){
+                    var appendStr = ' <li class="list-item">'+
+                        '<div class="list-item-banner-wrap">'+
+                            '<img src="'+info.bannerURL+'" alt="" class="list-item-banner">'+
+                            '<div class="banner-masker"></div>'+
+                        '</div>'+
+                        '<div class="list-item-info">'+
+                            '<p>'+
+                                '<img src="'+info.bankIconURL+'" alt="" class="bank-icon">'+
+                                '<span class="bank-name">'+info.bankName+'</span>'+
+                            '</p>'+
+                            '<p class="info-title">'+info.title+'</p>'+
+                        '</div>'+
+                    '</li>';
+                    $(appendStr).appendTo($('.more-list'));
+                })
+            })
+        })
+        $('body').on('click', '.btn-icare', function(){
+            alert('关注');
+        })
+    </script>
+</html>
