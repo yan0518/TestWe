@@ -122,7 +122,7 @@
     -ms-flex-align: center;
     align-items: center;
     margin-top: -.026667rem;
-    padding: 0 .4rem;
+    /*padding: 0 .4rem;*/
     width: 100%;
     height: 0;
     border-bottom: .026667rem solid #e5e5e5;
@@ -173,75 +173,6 @@
     white-space: -pre-wrap;
     white-space: -o-pre-wrap;
     word-wrap: break-word;
-    font-size: .32rem
-}
-
-.list {
-    margin-bottom: .88rem;
-    padding: 0 .4rem
-}
-
-.list-item {
-    margin-top: .32rem
-}
-
-.list-item .list-item-banner-wrap {
-    overflow: hidden;
-    width: 100%;
-    height: 2.88rem;
-    -webkit-border-radius: .106667rem .106667rem 0 0;
-    border-radius: .106667rem .106667rem 0 0
-}
-
-.list-item .list-item-banner-wrap .banner-masker {
-    position: relative;
-    left: 0;
-    top: -2.88rem;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,.2)
-}
-
-.list-item .list-item-banner {
-    display: block;
-    width: 100%;
-    height: 100%
-}
-
-.list-item .list-item-info {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    padding: .32rem;
-    height: .96rem;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    border: 1px solid #e5e5e5;
-    border-top: none;
-    -webkit-border-radius: 0 0 .106667rem .106667rem;
-    border-radius: 0 0 .106667rem .106667rem;
-    background-color: #fff
-}
-
-.list-item .list-item-info .bank-icon {
-    width: .48rem;
-    height: .48rem
-}
-
-.list-item .list-item-info .bank-name {
-    font-weight: 700;
-    vertical-align: middle
-}
-
-.list-item .list-item-info .info-title {
-    color: #959595;
     font-size: .32rem
 }
 
@@ -337,4 +268,12 @@
     -webkit-transform: translateX(.533333rem);
     -ms-transform: translateX(.533333rem);
     transform: translateX(.533333rem)
+}
+
+.mx-layout-body{
+    padding: 0;
+}
+
+.list-item .list-item-info{
+    padding: 0 .32rem !important;
 }
